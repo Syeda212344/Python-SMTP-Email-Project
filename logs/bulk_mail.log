@@ -1,0 +1,35 @@
+2026-11-13 15:40:00,000 INFO bulk_mail: Starting sample bulk-mail validation
+2026-11-13 15:40:00,001 ERROR bulk_mail: Skipping invalid email address: 'not-an-email'
+2026-11-13 15:40:00,002 WARNING bulk_mail: Attempt 1 failed for demo@example.com; retry scheduled
+2026-11-13 15:40:02,003 INFO bulk_mail: Sample run finished: 1 sent, 1 failed (demonstration log)
+2026-11-25 11:39:15,709 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:15,709 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:15,723 INFO send_mail: HTML email accepted for avery@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:16,759 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:16,760 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:16,767 INFO send_mail: HTML email accepted for jordan@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:17,804 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:17,805 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:17,816 INFO send_mail: HTML email accepted for taylor@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:18,870 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:18,870 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:18,890 INFO send_mail: HTML email accepted for morgan@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:19,925 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:19,925 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:19,943 INFO send_mail: HTML email accepted for riley@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:20,992 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:20,992 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:21,007 INFO send_mail: HTML email accepted for casey@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:22,055 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:22,056 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:22,074 INFO send_mail: HTML email accepted for jamie@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:23,117 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:23,117 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:23,137 INFO send_mail: HTML email accepted for cameron@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:24,201 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:24,201 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:24,221 INFO send_mail: HTML email accepted for quinn@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:25,266 INFO send_mail: SMTP authentication successful
+2026-11-25 11:39:25,266 INFO send_mail: Connected to SMTP server localhost:8025 using STARTTLS
+2026-11-25 11:39:25,286 INFO send_mail: HTML email accepted for drew@example.com (1 attachment(s), 1 inline image(s))
+2026-11-25 11:39:26,293 INFO __main__: Bulk run finished: 10 sent, 0 failed

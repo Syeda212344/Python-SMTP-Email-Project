@@ -1,0 +1,7 @@
+Hello {{ first_name }},
+
+Here is the information we wanted to share with you.
+Please see the attached PDF for a short project overview.
+
+Thank you,
+Student Project Team

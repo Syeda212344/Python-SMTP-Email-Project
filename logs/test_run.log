@@ -1,0 +1,15 @@
+2026-11-25 11:06:10,561 INFO send_mail: Connected to SMTP server localhost:587 using STARTTLS
+2026-11-25 11:06:10,589 INFO send_mail: Plain-text email accepted for recipient@example.com
+2026-11-25 11:06:10,589 ERROR send_mail: Could not send plain-text email to failure@example.com
+Traceback (most recent call last):
+  File "/Users/syedakwashfianawal/Desktop/CSC3360_Email_Python_Project/send_mail.py", line 52, in send_plain
+    client, sender = _connect()
+  File "/Users/syedakwashfianawal/Desktop/CSC3360_Email_Python_Project/send_mail.py", line 35, in _connect
+    client = smtplib.SMTP(host, port, timeout=30)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/unittest/mock.py", line 1093, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/unittest/mock.py", line 1097, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/unittest/mock.py", line 1152, in _execute_mock_call
+    raise effect
+OSError: Simulated connection problem
